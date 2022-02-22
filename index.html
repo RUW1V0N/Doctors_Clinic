@@ -1,16 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="index.css" />
-        <title>Doctors Clinic</title>
-    </head>
-    <body>
-        <span>
-            <img src="img/Union.svg" alt=""/>
-            <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="off">
-            <button type="submit" id="button" name="button">Get started</button>
-        </span>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Doctors Clinic</title>
+  </head>
+  <body>
+    <header class="Header">
+      <p>Modsen Health</p>
+      <nav class="navigation">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Clinic</a></li>
+          <li><a href="#">Doctors</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <form class="Login_form" method="post">
+        <button type="button" name="Login" class="Login">Login in</button>
+        <button type="button" name="Register" class="Register">Register</button>
+      </form>
+    </header>
+    <main class="Main">
+      <div>
+        <p>Booking of doctor’s appointment</p>
+        <p>Don’t Miss Our Exclusive Patient Special</p>
+        We want to make sure that everyone has access to natural and effective
+        care. With our special, you’ll receive a consultation and a digital
+        posture assesment.
+      </div>
+      <form class="Form_email">
+        <input
+          type="email"
+          class="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+        <button type="submit" class="button button_email" name="button">Get started</button>
+      </form>
+      <div class="Footer">
+        <div>
+          <p>240</p>
+          Qualified Doctors & Medical Specialists
+        </div>
+        <div>
+          <p>1.456</p>
+          Medical Tests Done For Our Patients
+        </div>
+        <div>
+          <p>1M+</p>
+          Years of Experience The Medical Field
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
